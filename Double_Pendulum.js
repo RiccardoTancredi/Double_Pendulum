@@ -20,7 +20,7 @@ function setup(){
     stroke(255);  
     pixelDensity(1);
     a1 = PI / 2;
-    a2 = PI / 4;
+    a2 = Math.random() * PI / 4;
     buffer = createGraphics(width, height);
     buffer.background(255);
     buffer.translate(origin_1[0], origin_1[1]);
